@@ -19,7 +19,6 @@ export default function Spotify() {
         bodyRef.current.scrollTop >= 268 
         ? setHeaderBackground(true) 
         : setHeaderBackground(false);
-
     };
   useEffect(()=>{
     const getUserInfo = async ()=>{
